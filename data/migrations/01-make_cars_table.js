@@ -15,5 +15,5 @@ exports.up = function (knex) {
 exports.down = function (knex) {
   // DO YOUR MAGIC
   // undoing that change
-  return knex.schema.dropTableIfExists("car");
+  return knex.schema.dropTableIfExists("cars");
 };
